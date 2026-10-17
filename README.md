@@ -41,7 +41,7 @@ static/         style.css (única hoja de estilos)
 Lee todos los empleados y recorre cada uno con `for`. Para cada empleado revisa sus documentos con otro `for` y cuenta los pendientes. Luego decide con `if/elif/else`: sin documentos requeridos, completo (0 pendientes) o incompleto (1 o más). Tres contadores acumulan cuántos hay de cada clasificación y se muestran con colores distintos (verde, rojo, amarillo).
 
 ## Equipo: parte de código desarrollada por cada integrante
-- Nombre 1: implementó `crear_bd.py`, la conexión y la estructura del repositorio
-- Nombre 2: implementó el registro con validación y la eliminación
-- Nombre 3: implementó el listado y la modificación con validación
-- Nombre 4: implementó el resumen (bucle, decisión y contadores) y `style.css`
+- Mariana Salazar: implementó `crear_bd.py`, la conexión y la estructura del repositorio
+- Fiorella Funes: implementó el registro con validación y la eliminación
+- Fernanda Pocasangre: implementó el listado y la modificación con validación
+- Alejandra Palma: implementó el resumen (bucle, decisión y contadores) y `style.css`
