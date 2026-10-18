@@ -7,7 +7,7 @@
 - Fernanda Pocasangre — usuario de GitHub: fernandapocaa-tech
 - Alejandra Palma — usuario de GitHub: alepal1
 - Mariana Salazar — usuario de GitHub: marianasalazar17
-- Fiorella Funes — usuario de GitHub: [usuario]
+- Fiorella Funes — usuario de GitHub: fiore463
 
 ---
 
