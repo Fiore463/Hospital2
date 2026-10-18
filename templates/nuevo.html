@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block titulo %}Registrar empleado{% endblock %}
+{% block contenido %}
+<h1>Registrar empleado</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="/empleados/nuevo">
+<label>Nombre</label>
+<input type="text" name="nombre" value="{{ datos.nombre }}">
+<label>Perfil</label>
+<select name="perfil">
+<option value="">-- Elige un perfil --</option>
+{% for p in perfiles %}
+<option value="{{ p }}" {% if datos.perfil == p %}selected{% endif %}>{{ p|capitalize }}</option>
+{% endfor %}
+</select>
+<label>Fecha de ingreso (AAAA-MM-DD)</label>
+<input type="text" name="fecha_ingreso" value="{{ datos.fecha_ingreso }}" placeholder="2024-05-20">
+<label>Correo</label>
+<input type="text" name="correo" value="{{ datos.correo }}" placeholder="nombre@hospital.com">
+<button type="submit">Guardar</button>
+</form>
+{% endblock %}
